@@ -1,3 +1,39 @@
+* {
+	box-sizing: border-box;	
+	font-family: Helvetica;
+}
+	
 body {
 	background-color: #F4F6F6;
+}
+
+div {
+	background-color: blue;
+}
+
+p {
+	width: 30%;
+	border: 1px solid black;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;	
+}
+
+#p_beef {
+	background-color: #66CC99;
+}
+
+#p_pork {
+	background-color: #99CCCC;
+}
+
+#p_lamb {
+	background-color: #FFCC99;
+}
+
+h1 {
+	margin-bottom: 5%;
+	text-align: center;
+	color: #666666;
 }
