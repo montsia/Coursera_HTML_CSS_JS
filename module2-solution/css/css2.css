@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color:  #f4f6f6 ;
 	
@@ -7,7 +11,7 @@ body {
 	background-color: red;
 	/*padding: 15px;
 	overflow: auto;*/
-	/*width: 100%;*/
+	width: 100%;
 	/*box-sizing: border-box;*/
 }
 
@@ -23,7 +27,7 @@ body {
 	background-color: #eaeded;
 	width: 25%;
 	margin: 10px;
-	float: left;
+	overflow: auto;
 }
 
 .box_title {
