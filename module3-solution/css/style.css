@@ -21,6 +21,33 @@ nav {
 	font-size: 260%;
 	color: #00000;
 	margin-bottom: 20px;
+
+}
+
+#dropdownMenu1 {
+    background-color: #dcc78b;
+}
+
+ul.dropdown-menu {
+    background-color: #dcc78b;
+    border: 1px solid black;
+}
+
+.dropdown-menu{
+	width: 100%;
+}
+
+.dropdown-menu > li {
+	border-bottom: 1px solid black;
+}
+
+.dropdown-menu > li:last-child {
+	border-bottom: none;
+}
+
+.dropdown-menu > li > a {
+	color: black;
+	text-align: center;
 }
 
 @font-face { 
@@ -48,22 +75,11 @@ section {
 	padding-top: 50px;
 	padding-bottom: 10px;
 	font-size: 100%;
+	position: relative;
 }
 
 #p_beef {
 	background-color: #936d2e; /*#f0bfcc;*/
 	color: white;
 	margin-top: -50px;
-}
-
-@media (max-width: @screen-xs-max) {
-	
-}
-
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-	
-}
-
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-	
 }
